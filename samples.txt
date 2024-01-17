@@ -1,0 +1,9 @@
+{
+"name" : "Niki Collier",
+"gender" : "F",
+"age": 49,
+"height": 1.549,
+"weight": 80,
+"smoker" : false,
+"medicalIssues": false
+}
