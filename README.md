@@ -23,6 +23,7 @@ Each service in the system has been dockerised and a compose file has been creat
 **To Run:**
 
 Ensure docker is installed on your system and running.
+Ensure that a docker network 'mynet' is created (run 'docker network create mynet')
 Clone the project and open a terminal in the root directory.
 Run the command 'docker compose up'
 
