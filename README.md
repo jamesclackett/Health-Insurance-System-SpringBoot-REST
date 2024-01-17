@@ -6,7 +6,7 @@ A distributed health insurance quotation system with a client entry-point, 3 hea
 The REST architectural style was used across the system, facilitating distributed and asynchonous communication between services.
 
 The SpringBoot framework was used, specifically the starter web module which provides Spring MCV, REST functionality, and a Tomcat web server.
-The aim of this project was to showcase the use SpringBoot for creating distributed RESTful services. _Please also see my similar JMS repo which showcases the use of Java Message Service for creating distributed services._
+The aim of this project was to showcase the use SpringBoot for creating distributed RESTful services. _Please also see my similar [JMS repo](https://github.com/jamesclackett/Health-Insurance-System-JMS) which showcases the use of Java Message Service for creating distributed services._
 
 The system contains a client service that provides relevant client information (name, age, weight, health-issues). This client makes requests to the Broker service which manages 2 REST controllers (BrokerController and RegistrationController). BrokerController listens to 3 endpoints (2 GET and 1 POST) that handle insurance quote requests from 
 the client, and resulting responses from the loan provider service(s). Similarly, RegistrationController listens to 2 GET and 1 POST endpoints, however these are 
