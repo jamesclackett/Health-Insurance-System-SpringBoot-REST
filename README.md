@@ -2,7 +2,7 @@
 
 ### Architecture:
 
-A distributed health insurance quotation system with a client entry-point, 3 health insurance provider services, and a broker service to facilitate communication between the 4.
+A distributed, microservice-based health insurance quotation system with a client entry-point, 3 health insurance provider services, and a broker service to facilitate communication between the 4.
 The REST architectural style was used across the system, facilitating distributed and asynchonous communication between services.
 
 The SpringBoot framework was used, specifically the starter web module which provides Spring MCV, REST functionality, and a Tomcat web server.
