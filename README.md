@@ -1,4 +1,4 @@
-## Quoqo Health Insurance system (SpringBoot REST)
+## LifeCo Health Insurance system (SpringBoot REST)
 
 ### Architecture:
 
